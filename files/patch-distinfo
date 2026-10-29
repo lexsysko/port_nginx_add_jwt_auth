@@ -1,0 +1,14 @@
+--- distinfo.orig       2026-10-29 16:53:35.829147000 -0400
++++ distinfo    2026-10-29 16:56:27.477757000 -0400
+@@ -77,3 +77,11 @@
+ SIZE (vozlt-nginx-module-vts-bf64dbf_GH0.tar.gz) = 180394
+ SHA256 (openresty-xss-nginx-module-v0.06_GH0.tar.gz) = 0b12bbc53a41f3e3d6df419c173b8c87434be3e6cd255a8193aa91345a2de6cf
+ SIZE (openresty-xss-nginx-module-v0.06_GH0.tar.gz) = 12448
++SHA256 (kjdev-nginx-auth-jwt-76e0be2_GH0.tar.gz) = 7a0dcfbb5e6204fb77f6b825c4185d61ef384b41ede84e13011e80a24dca3542
++SIZE (kjdev-nginx-auth-jwt-76e0be2_GH0.tar.gz) = 84648
++SHA256 (kjdev-nxe-json-e071c83_GH0.tar.gz) = 0ebcf0ae93e849e8d580c6fcea657cc4468578d776c150113715c7fb9d300504
++SIZE (kjdev-nxe-json-e071c83_GH0.tar.gz) = 27879
++SHA256 (kjdev-nxe-jwx-3379f38_GH0.tar.gz) = 77c3dbbfd321a5f0643e761bd889010a94868331749739068b751f5e080eadce
++SIZE (kjdev-nxe-jwx-3379f38_GH0.tar.gz) = 66337
++SHA256 (kjdev-nxe-phase-d5ed785_GH0.tar.gz) = 7f0dc9165a6a2dc5c73a15a2ab8f44c621cf9db685fd7bfc3b86f042f064dfb4
++SIZE (kjdev-nxe-phase-d5ed785_GH0.tar.gz) = 27700
