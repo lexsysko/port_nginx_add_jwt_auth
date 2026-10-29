@@ -95,3 +95,14 @@ git restore /usr/ports/www/nginx
 * **Module Version:** `nginx-auth-jwt` release-0.15.0
 * **NGINX Port Version:** `nginx-1.30.6_6,3`
 
+### LDD
+```bash
+ldd /usr/local/libexec/nginx/ngx_http_auth_jwt_module.so
+/usr/local/libexec/nginx/ngx_http_auth_jwt_module.so:
+        libjansson.so.4 => /usr/local/lib/libjansson.so.4 (0x3097a0e06000)
+        libcrypto.so.30 => /lib/libcrypto.so.30 (0x3097a1c32000)
+        libssl.so.30 => /usr/lib/libssl.so.30 (0x3097a2e60000)
+        libc.so.7 => /lib/libc.so.7 (0x30979edb7000)
+        libthr.so.3 => /lib/libthr.so.3 (0x3097a3602000)
+```
+
