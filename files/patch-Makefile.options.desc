@@ -1,0 +1,7 @@
+--- Makefile.options.desc.or	2026-10-29 08:56:27.263539000 -0400
++++ Makefile.options.desc	2026-10-29 14:44:34.345503000 -0400
+@@ -120,3 +120,4 @@
+ XSS_DESC=			3rd party xss module
+ WEBSOCKIFY_DESC=		3rd party websockify module
+ ZSTD_DESC=			3rd party zstd module
++JWT_AUTH_DESC=			3rd party jwt auth module

@@ -1,0 +1,16 @@
+--- Makefile.or	2026-10-29 08:56:27.263402000 -0400
++++ Makefile	2026-10-29 09:46:27.271609000 -0400
+@@ -288,6 +288,13 @@
+ post-extract-NAXSI-on:
+ 	@${RMDIR} ${WRKSRC_naxsi}/naxsi_src/libinjection
+ 	@${LN} -s ${WRKSRC_libinjection} ${WRKSRC_naxsi}/naxsi_src/libinjection
++	
++
++post-extract-JWT_AUTH-on:
++	@${RMDIR} ${WRKSRC_jwt_auth}/nxe-json ${WRKSRC_jwt_auth}/nxe-jwx ${WRKSRC_jwt_auth}/nxe-phase 2>/dev/null || true
++	@${MV} ${WRKSRC_jwt_json} ${WRKSRC_jwt_auth}/nxe-json
++	@${MV} ${WRKSRC_jwt_jwx} ${WRKSRC_jwt_auth}/nxe-jwx
++	@${MV} ${WRKSRC_jwt_phase} ${WRKSRC_jwt_auth}/nxe-phase
+ 
+ post-patch:
+ 	@${REINPLACE_CMD} 's!%%HTTP_PORT%%!${HTTP_PORT}!; \
